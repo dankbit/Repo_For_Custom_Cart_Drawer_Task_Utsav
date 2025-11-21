@@ -16,6 +16,8 @@ Follow these simple steps to see the cart drawer in action on a Shopify store (D
 **3. Paste Code:** Copy the code from this repository's custom-cart-drawer.liquid file and paste it there. Save the file.
 
 **4. Add to Layout:** Open layout/theme.liquid and add the section with the name "Custom Cart Drawer" in the footer.
+<img width="334" height="142" alt="image" src="https://github.com/user-attachments/assets/8766b103-2173-4521-b59a-9933a4f3f9ea" />
+
 
 **5. Adjust Settings:**
 	- Go to the Theme Editor (Customize).
@@ -23,6 +25,7 @@ Follow these simple steps to see the cart drawer in action on a Shopify store (D
 	- Click on Theme Settings (Gear icon) > Cart.
 
 	- Change "Cart type" to Page (this disables the default drawer so the custom one works).
+<img width="334" height="142" alt="image" src="https://github.com/user-attachments/assets/198e73d0-94b5-441c-9c6f-7cac5aa2a549" />
 
 
 **6. Save:** Click Save. The new drawer will now appear when you click the cart icon or add an item.
@@ -46,6 +49,7 @@ Follow these simple steps to see the cart drawer in action on a Shopify store (D
 
 **- Subtotal & Checkout:** Real-time subtotal calculation and integrated checkout button. - COMPLETED
 
+
 **Bonus Requirements:**
 
 
@@ -66,6 +70,8 @@ Beyond the assignment scope, I implemented several enhancements to improve conve
 
 **1. Free Shipping Progress Bar:**
 
+<img width="402" height="169" alt="image" src="https://github.com/user-attachments/assets/82edc399-21c2-44ec-bd06-c5dc3d2752a8" />
+
 
 	- A visual bar at the top that fills up as users add items.
 
@@ -75,6 +81,10 @@ Beyond the assignment scope, I implemented several enhancements to improve conve
 
 
 **2. Utility Quick-Actions:**
+
+<img width="414" height="246" alt="image" src="https://github.com/user-attachments/assets/05185ccf-c587-4f47-a33b-4780c5fb9040" />
+
+
 
 
 	- Located at the bottom of the drawer, I added three toggleable icons:
@@ -87,6 +97,8 @@ Beyond the assignment scope, I implemented several enhancements to improve conve
 
 
 **3. Smart Fallback Logic:**
+
+<img width="403" height="423" alt="image" src="https://github.com/user-attachments/assets/c03ddb16-ba25-4066-b042-a0df47cbd6e9" />
 
 
 	- If the Shopify Recommendations API fails or returns no data, the system automatically loads a manual collection defined in the settings, ensuring the Upsell section is never empty.
